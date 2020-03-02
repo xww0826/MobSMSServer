@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import cn.smssdk.EventHandler;
 import cn.smssdk.OnSendMessageHandler;
@@ -63,6 +64,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         btn_get_code.setOnClickListener(this);
         btn_verify.setOnClickListener(this);
+
+        Toast.makeText(this, "new branch", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "new branch", Toast.LENGTH_SHORT).show();
     }
 
     @Override
